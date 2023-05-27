@@ -11,7 +11,7 @@ function generateImage() {
     };
     const headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer <Add the private auth code from the Open AI Developer Console>'
     };
 
     fetch(apiUrl, {
@@ -52,7 +52,7 @@ function askGPT() {
     };
     const headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer <Add the private auth code from the Open AI Developer Console>'
     };
 
     fetch(apiUrl, {
