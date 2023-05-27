@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Using Open AI to Ask Questions and Generate Images</title>
+  <script type="text/javascript" src="js/openAI.js"></script>
+</head>
+
+<body>
+  <input type="text" id="myInput" size="100">
+  <button onclick="askGPT()">Ask OpenAI</button>
+  <div id="api-response"></div>
+  
+  <input type="text" id="myImageInput" size="100">
+  <button onclick="generateImage()">Generate Image</button>
+
+  <div>
+    <br/>
+    <img id="generatedImage" src="" alt="">
+  </div>
+
+</body>
+</html>
